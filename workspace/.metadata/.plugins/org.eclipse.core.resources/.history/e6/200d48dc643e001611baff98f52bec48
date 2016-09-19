@@ -1,0 +1,5 @@
+package weixiang_01;
+
+public class AException extends Exception {
+
+}

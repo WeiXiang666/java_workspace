@@ -1,0 +1,5 @@
+目录下都是ECLIPSE工程文件，testjdbc是一个简单的JDBC应用的例子。
+dbcp演示了数据库连接池技术。而ormapping是一个复杂的OR映射的例子程序，
+分别使用了myBatis和hibernate以及自定义的一个映射工具来进行数据库操作。
+所需要的第三方的类库文件都放在各自工程目录下的lib子目录中。
+

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<taglib>
+	<tlib-version>1.0</tlib-version>
+	<jsp-version>1.2</jsp-version>
+	<short-name>it</short-name>
+	<uri>http://www.abc.com/ns/mytags</uri>
+
+	<tag>
+		<name>iterator</name>
+		<tag-class>mytags.IterationTag</tag-class>
+		<tei-class>mytags.MyTagExtraInfo</tei-class>
+		<body-content>JSP</body-content>
+		<attribute>
+			<name>var</name>
+			<required>true</required>
+		</attribute>
+		<attribute>
+			<name>type</name>
+			<required>true</required>
+		</attribute>
+		<attribute>
+			<name>list</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+</taglib>

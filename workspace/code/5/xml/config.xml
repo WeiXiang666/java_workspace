@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<beans>
+	<bean name="b1" class="java.lang.String" />
+	<bean name="b2" class="java.lang.StringBuffer" />
+	<!-- 下面的这行配置会引起无限次的递归，JVM会崩溃掉 
+	<bean name="b3" class="com.abc.bean.BeanFactory"/> 
+	-->
+</beans>

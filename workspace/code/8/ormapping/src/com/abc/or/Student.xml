@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.abc.or"> <!--命名空间，和Java包类似 -->
+	<!-- SELECT操作，需要传递参数，返回结果的类型是Student类型 -->
+	<select id="selectStudent" parameterType="String" resultType="com.abc.or.Student">
+		select * from student where id = #{id}
+	</select>
+	<!-- 传递的参数是一个Map集合，使用了Map集合中的value1, value2的映射值 -->
+	<select id="selectStudentBetween" parameterType="Map"
+		resultType="com.abc.or.Student">
+		select * from student where java between #{value1} and
+		#{value2}
+	</select>
+	<!-- 传递的参数是一个Javabean对象，可以使用#{bean属性名称}来传递参数 -->
+	<update id="updateStudent" parameterType="com.abc.or.Student"
+		flushCache="true" statementType="PREPARED">
+		update student set
+		name=#{name},email=#{email},java=#{java},age=#{age},gender=#{gender}
+		where id=#{id}
+	</update>
+</mapper>
+

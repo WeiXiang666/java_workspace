@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE taglib
+        PUBLIC "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.2//EN"
+        "http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd">
+<taglib>
+	<tlib-version>1.1</tlib-version>
+	<jsp-version>1.2</jsp-version>
+	<short-name>now</short-name>
+	<uri>http://www.abc.com/ns/mytags</uri>
+
+	<tag>
+		<name>time</name>
+		<tag-class>mytags.TimeTag</tag-class>
+		<body-content>empty</body-content>
+		<!--在time标记中，声明了两个属性 -->
+		<attribute>
+			<name>color</name>
+			<required>false</required>  		<!--这个属性不是必须的 -->
+			<rtexprvalue>true</rtexprvalue> 	<!--属性值可以是动态的表达式 -->
+			<type>java.lang.String</type>   	<!--声明属性的类型 -->
+		</attribute>
+
+		<attribute>
+			<name>format</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+			<type>java.lang.String</type>
+		</attribute>
+
+	</tag>
+</taglib>
+

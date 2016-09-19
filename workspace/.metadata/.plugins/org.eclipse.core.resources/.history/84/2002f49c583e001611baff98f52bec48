@@ -1,0 +1,21 @@
+package weixiang_01;
+
+public class A {
+	public void set()
+	{
+		
+	}
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//		System.out.println(args[0]);
+		Object o = new A();
+		o = (A)o;
+//		o.set();
+//		A a=(A)o;    //ClassCastException 引用转换异常
+	
+	}
+
+}

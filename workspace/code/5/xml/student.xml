@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="gb2312"?>
+<students>
+	<student>
+		<id>200192001</id>
+		<name>张三</name>
+		<age>18</age>
+		<gender>男</gender>
+		<email>zs13242342@abc.com</email>
+		<java>98</java>
+	</student>
+	<student>
+		<id>200192002</id>
+		<name>王五</name>
+		<age>25</age>
+		<gender>男</gender>
+		<email>ww12343234@abc.com</email>
+		<java>85</java>
+	</student>
+	<student>
+		<id>200192003</id>
+		<name>郑卫</name>
+		<age>34</age>
+		<gender>男</gender>
+		<email>zw123412342@abc.com</email>
+		<java>55</java>
+	</student>
+	<student>
+		<id>200192005</id>
+		<name>张飞</name>
+		<age>19</age>
+		<gender>男</gender>
+		<email>zf23423@abc.com</email>
+		<java>58</java>
+	</student>
+	<student>
+		<id>200192006</id>
+		<name>李娜</name>
+		<age>29</age>
+		<gender>女</gender>
+		<email>lina12341324123@abc.com</email>
+		<java>99</java>
+	</student>
+</students>

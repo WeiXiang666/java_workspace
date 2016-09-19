@@ -1,0 +1,53 @@
+package base64;
+
+public class MyBase64 {
+	
+	public String ASCBinary(byte[] b) {
+		String binary=new String();
+		binary="";
+		for (int i = 0; i < b.length; i++) {
+			int asc=(char)b[i];
+			String temp=Integer.toBinaryString(asc);
+			while(temp.length()<8)
+				temp="0"+temp;
+		    binary+=temp;
+		}
+		return binary;
+	}
+	public String encode(byte[] data) 
+	{
+		String binary = ASCBinary(data);
+		String result =new String("");
+		while(binary.length()%6!=0)
+			binary+="0";
+		while(binary.length()%24!=0)
+			binary+="A"
+//		int indexnum=binary.length()/6;
+//		int []index = new int[indexnum];
+		for(int i=0;i<binary.length()-6;i+=6)
+		{
+			String temp=binary.substring(i,i+6);//6位一组编码
+			int tmp = Integer.parseInt(temp,2); //6位一组的字符串二进制序列转位10进制！
+			if(tmp>=0&&tmp<=51)
+			{
+				tmp+=65;
+			}
+		}
+		
+		
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO buto-generated method stub
+//		byte []b=new byte[]{'M','A','B'};
+	    String a=new String("AAA");
+	    System.out.println(a=="AAA");
+		
+		
+
+	}
+
+}

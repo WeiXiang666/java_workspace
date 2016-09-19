@@ -1,0 +1,47 @@
+package base64;
+
+public class MyBase64 {
+	
+	public String ASCBinary(byte[] b) {
+		String binary=new String();
+		binary="";
+		for (int i = 0; i < b.length; i++) {
+			int asc=(char)b[i];
+			String temp=Integer.toBinaryString(asc);
+			while(temp.length()<8)
+				temp="0"+temp;
+		    binary+=temp;
+		}
+		return binary;
+	}
+	public String encode(byte[] data) 
+	{
+		String binary = ASCBinary(data);
+		while(binary.length()%6!=0)
+			binary+="0";
+		int indexnum=binary.length()/6;
+		int []index = new int[indexnum];
+		for(int i=0;i<binary.length()-6;i+=6)
+		{
+//			int temp=binary.substring(i, i+6);
+		}
+		
+		
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO buto-generated method stub
+//		byte []b=new byte[]{'M','A','B'};
+		String a=new String("010011");
+	    int b=Integer.parseInt(a,2);
+	    System.out.println(b);
+	    
+		
+		
+
+	}
+
+}

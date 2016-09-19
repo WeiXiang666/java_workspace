@@ -1,0 +1,16 @@
+package weixiang_01;
+
+public class A {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println(args[0]);
+		Object o = new int[10];
+		A a=(A)o;
+	
+	}
+
+}

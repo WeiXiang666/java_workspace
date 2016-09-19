@@ -1,0 +1,77 @@
+1 : 1 : 1 : If i walk would you run 
+2 : 2 : 2 : 我的靠近会让你却步吗？ 
+3 : 3 : 3 : If i stop would you come 
+4 : 4 : 4 : 我的止步会让你走近我吗？
+5 : 5 : 5 : If i say you're the one 
+6 : 6 : 6 : 
+7 : 7 : 7 : 如果我说你就是我的她
+8 : 8 : 8 : would you believe me 
+9 : 9 : 9 : 你又会相信吗
+10 : 10 : 10 : If i ask you to stay 
+11 : 11 : 11 : 如果我请你留下
+12 : 12 : 12 : would you show me the way 
+13 : 13 : 13 : 你愿意指引我吗？
+14 : 14 : 14 : Tell me what to say 
+15 : 15 : 15 : 该说什麽话
+16 : 16 : 16 : so you don't leave me 
+17 : 17 : 17 : 才能把你留下？
+18 : 18 : 18 : The world is catching up to you 
+19 : 19 : 19 : 世界牵绊了你的脚步
+20 : 20 : 20 : While your running away 
+21 : 21 : 21 : 而你努力狂奔
+22 : 22 : 22 : to chase your dream 
+23 : 23 : 23 : 追逐你的梦想
+24 : 24 : 24 : It's time for us to make a move 
+25 : 25 : 25 : 这次我们该迈出脚步
+26 : 26 : 26 : cause we are asking one another tochange 
+27 : 27 : 27 : 争取这一次改变的机会
+28 : 28 : 28 : And maybe i'm not ready 
+29 : 29 : 29 : 即便我还没准备好
+30 : 30 : 30 : But i'll try for your love 
+31 : 31 : 31 : 但我要争取你的爱
+32 : 32 : 32 : I can hide up above 
+33 : 33 : 33 : 我可以假装不在乎
+34 : 34 : 34 : I will try for your love 
+35 : 35 : 35 : 我要争取你的爱
+36 : 36 : 36 : We've been hiding enough 
+37 : 37 : 37 : 我们已经躲藏了太久
+38 : 38 : 38 : If i sing you a song, would you sing along？ 
+39 : 39 : 39 : 如果我为你唱歌，你会跟著唱吗？
+40 : 40 : 40 : Or wait till i'm gone, oh how we push and pull 
+41 : 41 : 41 : 如果一直等到我离开，我们将会怎麼分离？
+42 : 42 : 42 : If i give you my heart ，would you just play the part 
+43 : 43 : 43 : 如果给你我的心，你也会一样付出吗？
+44 : 44 : 44 : Or tell me it's the start of something beautiful 
+45 : 45 : 45 : 还是会告诉我这是个美好的开始？
+46 : 46 : 46 : Am i catching up to you 
+47 : 47 : 47 : 我将一直追随你
+48 : 48 : 48 : While your running away, to chase your dreams 
+49 : 49 : 49 : 直到你离开，去追寻你的梦想
+50 : 50 : 50 : It's time for us to face the truth 
+51 : 51 : 51 : 当我们需要面对现实的时候
+52 : 52 : 52 : cause we are coming to each other to change 
+53 : 53 : 53 : 争取这次改变的机会
+54 : 54 : 54 : And maybe i'm not ready 
+55 : 55 : 55 : 即便我还没准备好
+56 : 56 : 56 : But i'll try for your love 
+57 : 57 : 57 : 但我要争取你的爱
+58 : 58 : 58 : I can hide up above 
+59 : 59 : 59 : 我可以假装不在乎
+60 : 60 : 60 : I will try for your love 
+61 : 61 : 61 : 我要争取你的爱
+62 : 62 : 62 : We've been hiding enough 
+63 : 63 : 63 : 我们已经躲藏太久
+64 : 64 : 64 : I will try for your love 
+65 : 65 : 65 : 我要争取你的爱
+66 : 66 : 66 : I can hide up above 
+67 : 67 : 67 : 我可以假装不在乎
+68 : 68 : 68 : huh huhhhhhhhhhhhhhhhhh huh huhhh
+69 : 69 : 69 : huh huhhhhhhhhhhhhhhhhh huh huhhh
+70 : 70 : 70 : If i walk would you run 
+71 : 71 : 71 : 我的靠近会让你却步吗？
+72 : 72 : 72 : If i stop would you come 
+73 : 73 : 73 : 我的止步会让你走近我吗？
+74 : 74 : 74 : If i say you're the one 
+75 : 75 : 75 : 如果我说你就是我的她
+76 : 76 : 76 : would you believe me 
+77 : 77 : 77 : 你又会相信吗？

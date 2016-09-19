@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library author="张三">
+	<subject name="证券基础">
+		<instruction>多项选择题，又称多选题，是一种正确选项数目通常多于1个的选择题题型。如果选项个数只能多于1个，即为狭义的多选题，可能为1个或以上时为广义的多选题，特别地，当正确选项数目可以在1~所有选项数目之间取任意值时，称为不定项选择题。</instruction>
+		<question id="1" type="single" answer="A">
+			<ask>对非上市证券认识正确的是（ ）。 </ask>
+			<option id="A">
+				非上市证券指未申请上市或不符合证券交易所上市条件的证券</option>
+			<option id="B">非上市证券不允许在证券交易所内交易</option>
+			<option id="C">非上市证券不可以在其他证券交易市场交易</option>
+			<option id="D">凭证式国债、电子式储蓄国债、普通开放式基金份额
+				和非上市公众公司的股票都属于非上市证券
+			</option>
+		</question>
+		<question id="2" type="multiple" answer="AB">
+			<ask>广义的有价证券包括（ ）。 </ask>
+			<option id="A">资本证券</option>
+			<option id="B">商品证券</option>
+			<option id="C">货币证券</option>
+			<option id="D">金融证券</option>
+		</question>
+		<question id="3" type="single" answer="D">
+			<ask>证券市场监管的手段不包括（ ）。</ask>
+			<option id="A">法律手段</option>
+			<option id="B">经济手段</option>
+			<option id="C">行政手段</option>
+			<option id="D">市场手段</option>
+		</question>
+		<question id="4" type="multiple" answer="ABC">
+			<ask>证券的机构投资者主要包括（ ）。 </ask>
+			<option id="A">金融机构 </option>
+			<option id="B">各类基金</option>
+			<option id="C">企业和事业法人</option>
+			<option id="D">政府机构</option>
+		</question>
+		<question id="5" type="single" answer="A">
+			<ask>未年成人可以买卖股票</ask>
+			<option id="A">正确</option>
+			<option id="B">错误</option>
+		</question>
+	</subject>
+	<subject name="大学英语四级">
+		<category name="语法与词汇">
+			<question id="1" type="single" answer="A">
+				<ask>
+					The vacuum cleaner is a valuable labor-saving ______ action.</ask>
+				<option id="A">device</option>
+				<option id="B">engine</option>
+				<option id="C">piece</option>
+				<option id="D">instrument</option>
+			</question>
+			<question id="2" type="single" answer="C">
+				<ask>
+					During the races there were two accidents to motor-cyclists
+					including one ______ accident.</ask>
+				<option id="A">fatal</option>
+				<option id="B">killing</option>
+				<option id="C">deadly</option>
+				<option id="D">deathly</option>
+			</question>
+		</category>
+	</subject>
+</library>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<demo>
+	<jdbc>
+		<driver>com.mysql.jdbc.Driver</driver>
+		<url>jdbc:mysql://localhost/test</url>
+		<user>java</user>
+		<password>java1234</password>
+	</jdbc>
+	<mapping>
+		<!-- 类到数据库表的映射 -->
+		<class>com.abc.or.Student</class>
+		<table>student</table>
+		<!--类中的映射属性 -->
+		<property type="java.lang.String" column="id" id="true">id</property>
+		<property type="java.lang.String" column="name">name</property>
+		<property type="java.lang.String" column="email">email</property>
+		<property type="int" column="age">age</property>
+		<property type="int" column="java">java</property>
+		<property type="boolean" column="gender">gender</property>
+	</mapping>
+</demo>

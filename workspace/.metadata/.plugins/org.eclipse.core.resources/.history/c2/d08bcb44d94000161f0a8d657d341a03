@@ -1,0 +1,29 @@
+package base64;
+
+public class MyBase64 {
+	
+	public String ASBBinary(byte[] b) {
+		String binary=new String();
+		binary="";
+		for (int i = 0; i < b.length; i++) {
+			int asc=(char)b[i];
+			String temp=Integer.toBinaryString(asc);
+			while(temp.length()<8)
+				temp="0"+temp;
+		    binary+=temp;
+		}
+		return binary;
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO buto-generated method stub
+		byte []b=new byte[]{'M','A','B'};
+		
+		
+
+	}
+
+}

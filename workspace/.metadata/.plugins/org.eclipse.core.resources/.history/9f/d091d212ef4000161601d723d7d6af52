@@ -1,0 +1,84 @@
+package base64;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class MyBase64 {
+	String index;
+	public MyBase64()
+	{
+		String index=new String("ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/");
+	}
+	public String ASCBinary(byte[] b) {
+		String binary=new String();
+		binary="";
+		for (int i = 0; i < b.length; i++) {
+			int asc=(char)b[i];
+			String temp=Integer.toBinaryString(asc);
+			while(temp.length()<8)
+				temp="0"+temp;
+		    binary+=temp;
+		}
+		return binary;
+	}
+	public String Base64Binary(String b) {
+		String binary=new String("");
+		for (int i = 0; i < b.length(); i++) {
+			if(b.substring(i,i+1)=="=")
+				continue;
+			int index =this.index.indexOf(b.substring(i, i+1));
+			String temp=Integer.toBinaryString(index);
+			while(temp.length()<6)
+				temp="0"+temp;
+			binary+=temp;
+		}
+		return binary;
+	}
+	public String encode(byte[] data) 
+	{
+		String binary = ASCBinary(data);
+		String result =new String("");
+		while(binary.length()%6!=0)
+			binary+="0";
+		while(binary.length()%24!=0)
+		{
+			binary+="A";
+		}
+		String A="AAAAAA";
+		System.out.println(binary.length());
+//		int indexnum=binary.length()/6;
+//		int []index = new int[indexnum];
+		for(int i=0;i<=binary.length()-6;i+=6)
+		{
+			String temp=binary.substring(i,i+6);//6位一组编码
+			if(temp.equals(A))
+			{
+				result+="=";
+			}
+			else {
+				int tmp = Integer.parseInt(temp,2); //6位一组的字符串二进制序列转位10进制！
+				result+=(index.charAt(tmp))+"";
+			}
+           		
+			
+		}
+		return result;
+	}
+	public byte[] decode(String b) {
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO buto-generated method stub
+//		byte []b=new byte[]{'M','N'};
+//	    System.out.println(new MyBase64().encode(b));
+		
+		
+		String a="TU4=";
+		System.out.println(new MyBase64().Base64Binary(a));
+
+	}
+
+}
